@@ -1,0 +1,145 @@
+body{
+	background-color:#272525;
+	margin-left: 10px;
+	margin-right: 10px;
+	color:whitesmoke;
+	margin-top: 5px;
+}
+h2{
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #f0f8ffb3;
+}
+.navtxt{
+	color:#f0f8ffb3;
+}
+a{
+	cursor: pointer;
+}
+.subjectimg{
+	background-color: #f0f8ffb3;
+	border: 2px solid grey;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 0%;
+}
+.navbar{
+	border: 2px solid grey;
+	display: flex;
+	justify-content: space-around;
+	height: 30px;
+	width: 100%;
+}
+.navbar a{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.navtxt:hover{
+	color: #f0f8ffb3;
+	font-size: 25px;
+	transition: 0.5s ease-in-out;
+}
+.text{
+	color: #f0f8ffb3;
+}
+.headerimg{
+	max-height: 300px;
+	max-width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.branding{
+	display: flex;
+    align-items: center;
+	font-family: sans-serif ;
+	font-size: 20px;
+}
+.context{
+	font-size: 22px;
+	font-family: sans-serif;
+	border: 2px solid grey;
+}
+.image{
+	width: 400px;
+	height: 400px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-section h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    color: #ddd;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.footer-bottom {
+    padding-top: 20px;
+    text-align: center;
+    background-color: #222;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
